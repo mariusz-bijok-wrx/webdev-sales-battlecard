@@ -2,8 +2,7 @@
 
 Usage: python3 db_stats.py [path/to/db.csv]  -> JSON keyed by technology, then by category.
 - new_website_hours: "Workload - Dev" of finished new websites (real hours);
-- quoted_hours_client: midpoint of "Wycena - Klient" ranges for new websites and redesigns (any status);
-- pagespeed_mobile: mobile PageSpeed of finished projects.
+- quoted_hours_client: midpoint of "Wycena - Klient" ranges for new websites and redesigns (any status).
 """
 import csv
 import json
@@ -23,7 +22,7 @@ TECH_ALIASES = {
     "react": "headless",
 }
 CATEGORY_ALIASES = {"marekting web": "marketing", "ecommerce": "ecommerce", "sla": "marketing"}
-HEADER_ROW = 1  # row 0 holds only the "PageSpeed / Core Web Vitals" group labels
+HEADER_ROW = 1  # row 0 is an empty group-label row from the sheet export
 
 
 def hours(value):
@@ -57,14 +56,11 @@ def stats(projects):
         if not tech or not category:
             continue
         g = groups.setdefault(tech, {}).setdefault(
-            category, {"projects_done": 0, "real": [], "quoted": [], "mobile": []})
+            category, {"projects_done": 0, "real": [], "quoted": []})
         done = p.get("Stauts", "").strip() == "Done"
         work_type = p.get("Typ prac", "").strip()
         if done:
             g["projects_done"] += 1
-            mobile = hours(p.get("mobile"))  # plain number parser works for scores too
-            if mobile is not None:
-                g["mobile"].append(mobile)
             if work_type == "New webstie" and "-" not in p.get("Workload - Dev", ""):
                 real = hours(p.get("Workload - Dev"))
                 if real:
@@ -80,7 +76,6 @@ def stats(projects):
                 "projects_done": g["projects_done"],
                 "new_website_hours": summary(g["real"]),
                 "quoted_hours_client": summary(g["quoted"]),
-                "pagespeed_mobile": summary(g["mobile"]),
             }
             for category, g in sorted(categories.items())
         }
@@ -96,18 +91,17 @@ def _self_check():
     assert hours("ERR") is None and hours("?") is None
     sample = [
         {"Przeważająca technologia": "WP", "Kategoria": "Marekting web", "Stauts": "Done",
-         "Typ prac": "New webstie", "Workload - Dev": "~100h", "Wycena - Klient": "80-120", "mobile": "80"},
+         "Typ prac": "New webstie", "Workload - Dev": "~100h", "Wycena - Klient": "80-120"},
         {"Przeważająca technologia": "woocommerce", "Kategoria": "ecommerce", "Stauts": "Done",
-         "Typ prac": "New webstie", "Workload - Dev": "1000", "Wycena - Klient": "", "mobile": "ERR"},
+         "Typ prac": "New webstie", "Workload - Dev": "1000", "Wycena - Klient": ""},
         {"Przeważająca technologia": "WP", "Kategoria": "Marekting web", "Stauts": "Lost",
-         "Typ prac": "Redesign", "Workload - Dev": "-", "Wycena - Klient": "140-160", "mobile": ""},
+         "Typ prac": "Redesign", "Workload - Dev": "-", "Wycena - Klient": "140-160"},
     ]
     wp = stats(sample)["wordpress"]
     assert wp["marketing"]["projects_done"] == 1
     assert wp["marketing"]["new_website_hours"]["median"] == 100.0
     assert wp["marketing"]["quoted_hours_client"]["median"] == 125.0
     assert wp["ecommerce"]["new_website_hours"]["median"] == 1000.0
-    assert wp["ecommerce"]["pagespeed_mobile"] is None
 
 
 if __name__ == "__main__":

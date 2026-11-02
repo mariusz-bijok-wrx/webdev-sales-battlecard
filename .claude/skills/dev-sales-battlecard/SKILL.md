@@ -27,8 +27,8 @@ If the brief is missing, ask only for the brief.
 
 | What | Where | Rule |
 |---|---|---|
-| Our delivery data: hours, performance, portfolio | `db.csv` via `db_stats.py` | Always wins for our numbers |
-| Standard scenario and default plan per technology | `knowledge/battlecard-zalozenia.md` | Use unless the brief gives other numbers |
+| Our delivery data: hours, portfolio | `db.csv` via `db_stats.py` | Always wins for our numbers |
+| Standard scenario, default plan and orientation mobile PageSpeed per technology | `knowledge/battlecard-zalozenia.md` | Use unless the brief gives other numbers |
 | Prices, limits, strengths, risks | `knowledge/technologie/<tech>/*.md` | Arguments and catalogue prices |
 
 Run `python3 .claude/skills/dev-sales-battlecard/db_stats.py db.csv` at the start. Map
@@ -144,7 +144,7 @@ conditional rows in the priority order below until the limit. Localize labels.
 | 2 | API connection | `integrations` (not already covered) | CRM/marketing tools: native, apps, custom code |
 | 3 | Admin panel usability | `cms` or `shop` | How easy the panel is for a non-technical editor |
 | 3 | Technical SEO | `seo`, or `cms` without `shop` | What is built in, what needs work |
-| 3 | Performance | `seo` or `design` | Our median mobile PageSpeed from `db.csv` + main risk |
+| 3 | Performance | `seo` or `design` | Orientation mobile PageSpeed from `battlecard-zalozenia.md`, what the client controls, main risk |
 | 3 | Design development | `design` | How design becomes the site, freedom and limits |
 | 3 | AI | `ai` | How AI helps edit/build/sell; AI search visibility |
 | last | Best when | always | One sentence: the situation in which this column wins |
@@ -188,7 +188,7 @@ excluded technologies and why, and any data conflict or `brak danych` sales shou
 - The table fits one A4 landscape page and is readable (script passes).
 - Rows match the profile: shop rows only for shops, no CMS rows without a CMS need.
 - A client question from the rows above can be answered by copying one cell.
-- Every price names a concrete plan; every hour and PageSpeed figure comes from `db.csv`.
+- Every price names a concrete plan; every hour comes from `db.csv`, every PageSpeed figure from `battlecard-zalozenia.md` (label it orientation, not measurement).
 - No "to zależy", no variant lists, no invented numbers.
 - Columns are named technologies minus justified exclusions plus mandatory best fits.
 - One consistent language, Avenir throughout, formulas for the cost rows.

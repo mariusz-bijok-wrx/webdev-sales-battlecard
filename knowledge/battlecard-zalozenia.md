@@ -36,6 +36,18 @@ Kwoty **roczne** (tak sprzedawane są licencje wtyczek; plany miesięczne × 12 
 
 Hosting po stronie klienta (własny serwer) → hosting **$0** dla porównania, a w wierszu Hosting opis, co klient musi utrzymać.
 
+## Wydajność: orientacyjny wynik mobile PageSpeed
+
+Szacunek zespołu (2 listopada 2026), **nie pomiar** — `db.csv` nie zawiera już wyników PageSpeed. Na karcie zawsze z dopiskiem „orientacyjnie” i opisem, na co klient ma wpływ.
+
+| Technologia | Wynik mobile | Na co klient ma wpływ / główne ryzyko |
+|---|---|---|
+| **WordPress** | **90+** | pełna kontrola nad cache i serwerem; ryzyko: ciężkie wtyczki i page buildery |
+| **Webflow** | **70+** | brak wpływu na serwer; ryzyko: ciężkie animacje i skrypty zewnętrzne |
+| **HubSpot CMS** | **60+** | brak wpływu na serwer; HubSpot ładuje własne skrypty śledzące |
+| **Next.js + Sanity / Prismic / Strapi** | **90+** | pełna kontrola nad kodem i serwerem; ryzyko: ciężki JavaScript w przeglądarce |
+| Astro, Shopify, WordPress + WooCommerce | brak danych | — |
+
 ## Sklep: plan według skali sprzedaży
 
 Ceny Shopify dla Polski (rozliczenie roczne) i stawki Shopify Payments. Próg = miesięczna sprzedaż kartą, przy której niższa prowizja wyższego planu zwraca różnicę abonamentu.

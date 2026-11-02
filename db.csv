@@ -1,50 +1,46 @@
-,,,,,,,,,,,,,,PageSpeed,,Core Web Vitals,,
-Klient,Project,Kraj,Link do strony,Figma,Wycena - Dev,Wycena - Klient,Workload - Dev,Stauts,Kategoria,Przeważająca technologia,Typ prac,Potrzeba klienta,Notatki,desktop,mobile,LCP,CLS,FCP
-Hud,,Israel,https://www.hud.io/,Figma - Hud,84-101,70-100,126.5,In progress,Marekting web,WP,Redesign,Redesign strony,"Klient ropoczął pracę nad stornę ze swoim developerem, był niezadowolony z rezultatów, przejęliśmy pracę, rozpoczęliśmy od zera, termin był bardzo napięty, delivery zakończone sukcesem, klient dodaje z nami kolejne podstrony (już po go live)",27,27,5.6 s,0,2.9 s
-Warespace,,USA,https://warespace.com/,,-,-,20 / month package,In progress,SLA,WP,Maintenance,,,14,56,4.7 s,0.77,1.4 s
-CircleCare,,USA,https://www.circlecareservices.com/,Figma - CircleCare,234-330,210-335,800.46,Done,Marekting web,Hubspot,Redesign,Aktualizacja design strony,,44,42,3.6 s,0.009,3.1 s
-Zkipster,,Switzerland,https://www.zkipster.com/,Figma - Zkipster,350-400,180-270,401,Done,Marekting web,Hubspot,New webstie,"Przejście z Webflow na HS, ze względu na większą integrację z CRM",Wycena zawiera przepisanie z Webflow na HS,49,61,5.6 s,0.017,1.3 s
-Rebelhorn,,Poland,https://rebelhorn.com,Figma - Rebelhorn,275-600,280-440,~1000,Done,ecommerce,Shopify,Maintenance,Redesign strony głównej i dodanie nowych marketów,,63,58,3.5 s,0.003,2.0 s
-Dwelling,,USA,https://dwelling-lifestyle.webflow.io/,Figma - Dwelling,50-80,50-80,70,Disabled,Marekting web,Webflow,New webstie,Strona marketingowa,nie poszło live,,,,,
-Torus,,Poland,https://torus.pl,Figma - Torus,140-160,150,400,Done,Marekting web,WP,New webstie,Poprawienie performance i UX (możliwość łatwiejszej edycji treści),przepisanie z Elementora na Gutenberg,85,100,2.3 s,0,1.1 s
-Conectys,,Poland,https://www.conectys.com/,Figma - Conectys,170-210,150-180,203.56,Done,Marekting web,WP,Redesign,Aktualizacja design strony,,91,100,1.3 s,0.003,1.1 s
-Torus - all.in,,Poland,https://allinnhomeofstudents.com/,Figma - Torus - all.in,80-110,70-100,193,Done,Marekting web,WP,New webstie,Strona nowej inwestycji,,79,86,2.3 s,0,1.5 s
-Polpharma - Rezonbio,,Poland ,"https://rezonbio.com/ 
-https://portfolio.widehue.co/rezonbio/",Figma - Polpharma,230-330,?,376,Done,Marekting web,WP,Redesign,,,34,42,14.5 s,0.001,1.0 s
-Homeyard,,Poland,https://www.homeyard.pl/,Figma - Homeyard,120-156,190-260,248,Done,ecommerce,woocommerce,New webstie,Uruchomienie nowego sklepu internetowego od podstaw,,72,98,7.0 s,0.02,1.2 s
-WNiB,,Poland,https://wnib.pl,Figma - WNiB,?,?,~1000,Done,Marekting web,WP,Redesign,,,37,69,5.3 s,0,1.2 s
-Cyata,,Israel,https://cyata.ai,Figma - Cyata,?,?,~340,Done,Marekting web,WP,Maintenance,Strona marketingowa firmy,,58,56,1.2 s,0.007,1.0 s
-Qodo,,Israel,http://qodo.ai/ ,Figma - Qodo,?,?,,In progress,Marekting web,WP,Maintenance,Strona marketingowa firmy,"W Qodo działamy bez wycen, dodatkowo migracja na nowy design odbywa się partiami mieszana z masą innych requestów, więc ciężko tutaj cokolwiek podać - możemy ewentualnie bazować na samym home.",64,84,3.3 s,0.116,2.5 s
-Cycognito,,Israel,http://cycognito.com/,Figma - Cycognito,?,?,,In progress,Marekting web,PHP,Maintenance,Stopniowe odświeżanie strony o nowy design,"Tutaj stack jest inny, bo samo cycognito to czyste PHP, a blog to WordPress, dodatkowo migrujemy to partiami,mamy pakiety więc też ciężko o godziny.",58,64,4.7 s,0.003,3.4 s
-NFM,,Norway,https://portfolio.widehue.co/nfm/,Figma - NFM,,,,Disabled,Marekting web,WP,,Strona marketingowa firmy,,,,,,
-Trolley,,Canada,"https://trolley.com/
-https://portfolio.widehue.co/trolley/",,,,,Done,Marekting web,React / NextJS,Maintenance,Strona marketingowa firmy,"Ten projekt nie wiem kto robił, chyba Mateusz Matejunas",56,56,4.6 s,0.003,4.1 s
-Oktopost,,Israel,"https://www.oktopost.com/
-https://oktopost-portfolio.widehue.co/",,,,,Done,Marekting web,WP,New webstie,Strona marketingowa firmy,"Ten projekt nie wiem kto robił, chyba Mateusz Matejunas",73,90,3.0 s,0.001,1.1 s
-Spectacle,,USA,https://portfolio.widehue.co/spectacle/,Figma - Spectacle,,,,Disabled,Marekting web,woocommerce,,Strona marketingowa firmy,,,,,,
-Xpander,,Indonesia,https://portfolio.widehue.co/xpander/,Figma - Xpander,,,,Disabled,Marekting web,WP,,Strona marketingowa firmy,,,,,,
-SED,,USA,https://softwareengineeringdaily.com,Figma - SED,80-120,150-200,,In progress,Marekting web,WP,Redesign,Aktualizacja design strony,,60,58,4.0 s,0.01,3.6 s
-Faddom,,Israel,https://faddom.com,,180-280,200-300,,In progress,Marekting web,WP,Redesign,Aktualizacja design strony,,73,93,2.8 s,0.005,2.2 s
-Fairway,RFP benchmark,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-Fundacja Jerzego Staraka,,Poland,,,-,-,,In progress,Marekting web,WP,Maintenance,Przejęcie i utrzymanie strony ,"Przejęcie utrzymania i rozwoju od innej agencji, klient bardzo niezadowlony ze współpracy z obecną agencją (niski poziom profesjonalizmu) ",,,,,
-Euvic,,Poland,,,"B2B: 100 - 270
+,,,,,,,,
+Klient,Wycena - Dev,Wycena - Klient,Workload - Dev,Stauts,Kategoria,Przeważająca technologia,Typ prac,Potrzeba klienta
+Hud,84-101,70-100,126.5,In progress,Marekting web,WP,Redesign,Redesign strony
+Warespace,-,-,20 / month package,In progress,SLA,WP,Maintenance,
+CircleCare,234-330,210-335,800.46,Done,Marekting web,Hubspot,Redesign,Aktualizacja design strony
+Zkipster,350-400,180-270,401,Done,Marekting web,Hubspot,New webstie,"Przejście z Webflow na HS, ze względu na większą integrację z CRM"
+Rebelhorn,275-600,280-440,~1000,Done,ecommerce,Shopify,Maintenance,Redesign strony głównej i dodanie nowych marketów
+Dwelling,50-80,50-80,70,Disabled,Marekting web,Webflow,New webstie,Strona marketingowa
+Torus,140-160,150,400,Done,Marekting web,WP,New webstie,Poprawienie performance i UX (możliwość łatwiejszej edycji treści)
+Conectys,170-210,150-180,203.56,Done,Marekting web,WP,Redesign,Aktualizacja design strony
+Torus - all.in,80-110,70-100,193,Done,Marekting web,WP,New webstie,Strona nowej inwestycji
+Polpharma - Rezonbio,230-330,?,376,Done,Marekting web,WP,Redesign,
+Homeyard,120-156,190-260,248,Done,ecommerce,woocommerce,New webstie,Uruchomienie nowego sklepu internetowego od podstaw
+WNiB,?,?,~1000,Done,Marekting web,WP,Redesign,
+Cyata,?,?,~340,Done,Marekting web,WP,Maintenance,Strona marketingowa firmy
+Qodo,?,?,,In progress,Marekting web,WP,Maintenance,Strona marketingowa firmy
+Cycognito,?,?,,In progress,Marekting web,PHP,Maintenance,Stopniowe odświeżanie strony o nowy design
+NFM,,,,Disabled,Marekting web,WP,,Strona marketingowa firmy
+Trolley,,,,Done,Marekting web,React / NextJS,Maintenance,Strona marketingowa firmy
+Oktopost,,,,Done,Marekting web,WP,New webstie,Strona marketingowa firmy
+Spectacle,,,,Disabled,Marekting web,woocommerce,,Strona marketingowa firmy
+Xpander,,,,Disabled,Marekting web,WP,,Strona marketingowa firmy
+SED,80-120,150-200,,In progress,Marekting web,WP,Redesign,Aktualizacja design strony
+Faddom,180-280,200-300,,In progress,Marekting web,WP,Redesign,Aktualizacja design strony
+Fairway,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Fundacja Jerzego Staraka,-,-,,In progress,Marekting web,WP,Maintenance,Przejęcie i utrzymanie strony 
+Euvic,"B2B: 100 - 270
 B2C: 335 - 545","B2B: 100-270
-B2C: 335-545",,Lost,Marekting web,WP,New webstie,,"Oferta dla dewelopera osiedli mieszkaniowych, Euvic jest pośrednikiem.
-Temat nie jest priorytetowy dla klienta, zamykamy  ",,,,,
-Bioviko,,Poland,,-,120-160,130-180,-,Lost,Marekting web,WP,Redesign,,"Za drogo, klient miał 3-krotnie mniejszy budżet, oferta uznana za kompleksową i profesjonalną ",,,,,
-Bioviko - Impai,,Poland,,,120-160,150-200,-,Lost,Marekting web,WP,Redesign,,"Za drogo, klient miał 3-krotnie mniejszy budżet, oferta uznana za kompleksową i profesjonalną ",,,,,
-Geo2,,Wielka Brytania,,,140-168,180-200,,Lost,Marekting web,WP,New webstie,,"Temat nie jest priorytetowy, raz na miesiąc przypominamy się klientowi",,,,,
-PPL,,Poland,,,"A:1014
+B2C: 335-545",,Lost,Marekting web,WP,New webstie,
+Bioviko,120-160,130-180,-,Lost,Marekting web,WP,Redesign,
+Bioviko - Impai,120-160,150-200,-,Lost,Marekting web,WP,Redesign,
+Geo2,140-168,180-200,,Lost,Marekting web,WP,New webstie,
+PPL,"A:1014
 B:850","A:556-832
-B:640-760",,Lost,Marekting web,WP,Redesign,,"Brak decyzji po stronie klienta, zamykamy temat",,,,,
-Torus,,Poland,,,31-40,35-45,,Offering,Marekting web,Webflow,New webstie,Teaser dla strony Mozaiki,"Klient zaakceptował wycenę, czekamy na materiały ",,,,,
-Ambiens,,Poland,,,88-114,60-80,,Lost,Marekting web,WP,Redesign,,"Brak odpowiedzi od klienta, zamykamy temat ",,,,,
-CNC Cabinetry,,USA,https://www.cnccabinetry.com/,-,5-10,T&M maintenance,T&M maintenance,In progress,Marekting web,Inna,Maintenance,Bieżące utrzymanie,"Klient był niezadowolony z obecnego wsparcia, realizujemy prace związane z bieżącym utrzymaniem w Craft CMS",50,54,23.0 s,0.004,2.3 s
-Fey,,Germany,http://feydesign.nl/,,"imp. redes.: 170-180h
+B:640-760",,Lost,Marekting web,WP,Redesign,
+Torus,31-40,35-45,,Offering,Marekting web,Webflow,New webstie,Teaser dla strony Mozaiki
+Ambiens,88-114,60-80,,Lost,Marekting web,WP,Redesign,
+CNC Cabinetry,5-10,T&M maintenance,T&M maintenance,In progress,Marekting web,Inna,Maintenance,Bieżące utrzymanie
+Fey,"imp. redes.: 170-180h
 konfigurator:
 A - custom - 140-220h
 B - non-custom 40-50h
@@ -52,75 +48,72 @@ materace.pl: 160-220h","imp. redes.: 150-170h
 konfigurator:
 A - custom - 130-150h
 B - non-custom 40-50h
-materace.pl: 150-170h",-,Lost,Marekting web,Shopify,New webstie,"Przebudowa obecnej strony, utworzenie konfiguratora do zamawiania łóżek, postawienie nowej strony materace.pl","Klient nas odrzucił ponieważ:
-1. Było za drogo (głównie część audytowa design)
-2. inny partner zdaniem klienta lepiej rozumiał ich potrzeby
-3. Za mało w portfolio było przykładów custom konfiguratorów z rynku polskiego ",,,,,
-Dermia Solution,,Spain,,,"wariant A: 200-350h
+materace.pl: 150-170h",-,Lost,Marekting web,Shopify,New webstie,"Przebudowa obecnej strony, utworzenie konfiguratora do zamawiania łóżek, postawienie nowej strony materace.pl"
+Dermia Solution,"wariant A: 200-350h
 wariant B: 150-300h
 wariant C: 200-400h","wariant A: 240-305h
 wariant B: 150-250h
-wariant C: 215-305h",,Lost,ecommerce,WP,New webstie,Przebudowa strony plus sklepu internetowego,Klient miał za mały budżet bez możliwości negocjacji ,,,,,
-Locatee,,Switzerland,https://locatee.com/en/,,,,,Done,Marekting web,WP,New webstie,Strona marketingowa firmy,Robiliśmy od zera,10,28,7.1 s,0.326,3.1 s
-Shopic,,Israel,https://www.shopic.co/,,,,,Done,Marekting web,WP,New webstie,AI shopping assistant (in-store i e-commerce),Poprzednią stronę robiliśmy od zera,69,82,9.9 s,0.005,1.3 s
-Zenity,,Israel,https://www.zenity.io/,,,,,Done,Marekting web,WP,New webstie,Strona marketingowa cybersecurity,Robiliśmy od zera,62,91,4.1 s,0,2.9 s
-CohenCircle,,USA,https://cohencircle.com/,,,,,Done,Marekting web,WP,New webstie,Strona marketingowa fintech,Robiliśmy od zera,59,71,4.1 s,0.016,4.0 s
-Lanterna,,Sweden,https://lanterna.com/,,,,,Done,Marekting web,WP,Maintenance,Platforma edukacyjna ed-tech,Rozwijaliśmy (SLA),69,70,4.4 s,0,1.2 s
-Lanterna Elite,,UK,https://eliteib.co.uk/,,,,,Done,Marekting web,WP,New webstie,Strona International Baccalaureate,Robiliśmy od zera,58,56,5.8 s,0,3.1 s
-Noogata,,Israel,https://noogata.com/,,,,,Done,Marekting web,WP,New webstie,Strona AI/ML,Robiliśmy od zera,64,67,4.4 s,0.001,1.9 s
-Shul / Dinevtr,,USA,https://dinevtr.org/,https://www.figma.com/proto/fjNP1S5zAhcXuNN8XCsPzd/Shul-Site,,,~245h,Done,ecommerce,woocommerce,New webstie,Sklep z zamówieniami online (angielsko-jidyszowy) + USA e-pay,Projekt MannSalesCo; WooCommerce z dużą liczbą wariantów produktów,13,23,49.0 s,0.24,19.6 s
-Compliments Platters,,USA,https://complimentsplatters.com/,,,,~138h,Done,ecommerce,woocommerce,New webstie,Koszerny catering Brooklyn — sklep online,Projekt MannSalesCo; robiliśmy od zera,26,38,12.2 s,0.036,3.4 s
-Stableton,,Switzerland,https://www.stableton.com/,,,,,Done,Marekting web,WP,Maintenance,Platforma investment (private equity),Rozwijaliśmy,66,63,2.9 s,0.055,1.9 s
-Tilal,,UAE,https://tilalre.com/,,,,,Done,Marekting web,WP,New webstie,Strona real estate,Robiliśmy od zera,28,28,23.9 s,0.001,3.3 s
-Preferred Payments,,USA,https://www.preferredpayments.com/,,,,,Done,Marekting web,WP,New webstie,Strona marketingowa fintech,Robiliśmy od zera,56,66,7.9 s,0.022,4.5 s
-Sternum,,Israel,https://sternumiot.com/,,,,,Done,Marekting web,WP,New webstie,Strona IoT security,Robiliśmy od zera,61,79,3.9 s,0,3.2 s
-Torii,,Israel,https://www.toriihq.com/,,,,,Done,Marekting web,WP,New webstie,Strona SaaS (IT visibility),Robiliśmy od zera,76,94,2.0 s,0.007,1.4 s
-TMD Hosting,,Bulgaria,https://www.tmdhosting.com/,,,,,Done,Marekting web,WP,New webstie,Strona usług hostingowych,Robiliśmy od zera,57,63,6.3 s,0.004,3.6 s
-SkuNexus,,USA,https://www.skunexus.com/,,,,,Done,ecommerce,WP,New webstie,Platforma zarządzania zamówieniami e-commerce,Nie pokazujemy publicznie w portfolio (notatka z portfolio file),78,90,2.0 s,0.001,2.0 s
-Milestone,,Israel,https://mstone.ai/,,,,,Done,Marekting web,WP,Maintenance,Strona marketingowa,Poprawialiśmy po innej agencji; nie nasz design,36,47,5.6 s,0.014,1.1 s
-SevenStoneCap,,USA,https://www.sevenstonecap.com/,https://www.figma.com/file/tU3YWcMZt8RN5iYnE7DB6o/Seven-Stone.1,,,~50h,Done,Marekting web,Webflow,New webstie,Strona usług finansowych,Projekt MannSalesCo,77,59,2.2 s,0.002,2.2 s
-Rightfully,,USA,https://www.rightfully.com/,https://www.figma.com/file/2wFhdYTR0wDrmqozhozBj8/Rightfully-Website,,,~55h,Done,Marekting web,Webflow,New webstie,,Projekt MannSalesCo; robiliśmy od zera,74,95,2.6 s,0.02,2.1 s
-FurerSchaefer,,USA,https://www.furerschaefer.com/,https://www.figma.com/file/vC2UTVTg6VrxT84HKDthiu/Furer-Schaefer,,,~116h,Disabled,Marekting web,Webflow,New webstie,Crypto hedge fund,Projekt MannSalesCo; strona nie działa (wg pliku portfolio),,,,,
-Windsor,,USA,https://www.windsor.io/,,,,,Done,Marekting web,Webflow,New webstie,Strona MarTech/AdTech,Robiliśmy od zera; wg portfolio 'niedokończony projekt?',ERR,ERR,,,
-Ecanvasser,,Ireland,https://www.ecanvasser.com/,,,,,Done,Marekting web,Webflow,New webstie,Platforma dla kampanii politycznych,Robiliśmy od zera,25,55,25.2 s,0,6.6 s
-Audiohook,,USA,https://www.audiohook.com/,,,,,Done,Marekting web,Webflow,New webstie,Platforma audio advertising,Robiliśmy od zera,63,62,4.0 s,0.007,2.9 s
-Xyte,,Israel,https://www.xyte.io/,,,,,Done,Marekting web,Webflow,New webstie,Platforma zarządzania IoT/Hardware,Robiliśmy od zera,56,63,6.1 s,0.003,3.8 s
-Fintastic,,Israel,https://www.fintastic.ai/,,,,,Done,Marekting web,Webflow,New webstie,Strona fintech AI,Robiliśmy od zera,55,49,8.5 s,0.037,4.1 s
-Zasta,,Germany,https://zasta.de/,,,,,Done,Marekting web,Webflow,New webstie,Strona fintech (ubezpieczenia),Robiliśmy od zera,73,67,2.6 s,0.017,2.3 s
-Mannsales.co,,USA,https://www.mannsales.co/,https://www.figma.com/file/LYcMpeCOvzzyJA15aC8NZ1/MSC---Site,,,~431h,Done,Marekting web,Webflow,New webstie,Strona agencji kreatywnej MannSalesCo,Klient wieloletni; robiliśmy od zera,66,65,2.4 s,0.015,2.1 s
-MonaLabs,,Israel,https://www.monalabs.io/,,,,,Done,Marekting web,Headless,New webstie,Strona AI/ML,Robiliśmy od zera,71,72,3.5 s,0.037,1.8 s
-Codesigned,,USA,https://codesigned.com/,,,,,Done,Marekting web,Headless,New webstie,Strona agencji design,Robiliśmy od zera,ERR,ERR,,,
-21Shares,,Switzerland,https://21shares.com/,,,,,Done,Marekting web,Headless,New webstie,Strona crypto ETP/ETF,Robiliśmy od zera,52,57,6.5 s,0,5.0 s
-Robyg (Gdańsk),,Poland,https://www.gdansk.robyg.pl/en,,,,,Done,Marekting web,Headless,New webstie,Strona dewelopera nieruchomości,Robiliśmy od zera,ERR,ERR,,,
-Personizely,,International,https://www.personizely.net/,,,,,Done,Marekting web,Headless,New webstie,Narzędzie CRO/personalizacja dla e-commerce,Robiliśmy od zera (Strapi),54,54,9.1 s,0.025,5.6 s
-Norm,,Switzerland,https://www.norm.ch/,,,,,Done,Marekting web,Headless,New webstie,Strona firmy,Robiliśmy od zera,66,69,4.7 s,0.098,1.2 s
-BagelCRM,,Israel,https://bageldigital.io/,,,,,Done,Marekting web,Headless,New webstie,Platforma CRM,Robiliśmy od zera,ERR,ERR,,,
-FounderPath,,USA,https://founderpath.com/,,,,,Done,Marekting web,React / NextJS,New webstie,Platforma finansowania SaaS,Robiliśmy od zera,62,76,4.0 s,0.005,1.3 s
-Baller,,USA,https://ballerpens.com/,,,,~1011h,Done,ecommerce,woocommerce,New webstie,Custom pen configurator online (WooCommerce + Zakeke 3D); sklep z zamówieniami i wysyłką,Projekt MannSalesCo,ERR,ERR,,,
-Kitchen One,,USA,https://www.getk1.com/,https://www.figma.com/design/OFtXusrZ0KQ9YpbHxBEFcG/Kitchen-One-Website,,,~187h,Done,ecommerce,WP,New webstie,Platforma zamówień koszernego jedzenia dla biur (multi-restaurant),Projekt MannSalesCo; Lakewood NJ,36,60,10.8 s,0.768,2.7 s
-Fleishigs,,USA,https://www.fleishigs.com/,https://www.figma.com/proto/ykFg92R2GbIkENHIQKTZZ1/Fleishigs.com---Design,,,~5720h,In progress,Marekting web,React,Maintenance,Koszerny magazyn spożywczy — strona + mobile app,Aktywny klient z dużym workload; klient MannSalesCo,62,67,7.6 s,0,1.2 s
-Dataloop,,Israel,https://dataloop.ai/,,,,,Done,Marekting web,WP,New webstie,Platforma AI/ML do zarządzania danymi,,54,57,6.3 s,0.005,4.7 s
-Stonebrook,,USA,https://www.stonebrookins.com/,,,,,Done,Marekting web,WP,New webstie,Strona ubezpieczeniowa,,27,46,15.9 s,0.021,2.6 s
-Formation,,USA,,https://www.figma.com/design/XBwBz3xaYuT3kGnTTgMaSC/Formation-Web,,,~132h,Done,Marekting web,WP,New webstie,Food/restaurant platform,Projekt MannSalesCo 2025; URL nieznany,,,,,
-Cue,,USA,https://cuewigs.com,,,,~129h,Done,Marekting web,Webflow,New webstie,Luksusowe peruki — branding + strona,Projekt MannSalesCo,59,77,3.7 s,0.078,3.6 s
-Asgtg,,USA,https://asgtg.com,https://www.figma.com/file/MdtTWyDzyN8fofnUPs3hvo/ASGTG,,,~51h,Done,Marekting web,WP,Maintenance,Strona organizacji — nowa podstrona w WP,Projekt MannSalesCo,25,59,11.6 s,0.008,4.3 s
-Biased,,USA,,https://www.figma.com/file/lPEPMx8OM8fOs47g5DNaDp/Biased,,,~29h,Done,Marekting web,Webflow,New webstie,Agencja mediowa — pilna strona ('na już'),Projekt MannSalesCo,,,,,
-Pas,,USA,,https://www.figma.com/file/8pIz2LNgUW3N9FsXSQcaBd/pas,,,~224h,Done,Marekting web,WP,New webstie,Piekarnia/bakery — strona WordPress,Projekt MannSalesCo; URL nieznany,,,,,
-TheAdPen.com,,USA,https://theadpen.com,,,,~39h,Done,Marekting web,WP,New webstie,Platforma reklamowa,Projekt MannSalesCo,51,69,5.3 s,0.105,4.7 s
-Kovahats,,USA,https://kovahats.com,,,,~6h,Done,Marekting web,WP,New webstie,Sklep stacjonarny z kapeluszami (Lakewood NJ),Projekt MannSalesCo,63,57,9.7 s,0.121,1.7 s
-Bonus Coupons,,USA,,https://www.figma.com/design/dW61MdgA0GRFIfTF7xAv30/Bonus-app,,,~1215h,Done,ecommerce,,New webstie,Platforma kuponów i deals — e-commerce ekosystem,Aktywny klient Widelab/WL Development; ~390h w ostatnich 3 miesiącach,,,,,
-Appraisd,,UK,https://www.appraisd.com/,,,,,Done,Marekting web,Webflow,New webstie,Platforma zarządzania pracownikami (performance review),Robiliśmy od zera,47,56,13.5 s,0.012,2.4 s
-Tryotter,,,https://www.tryotter.com/,https://www.figma.com/design/AecUvHqU860PpSQaNtGL2J/Otter-Restaurant-Type-Pages,,,,Done,Marekting web,Headless,New webstie,Platforma SaaS,Robiliśmy od zera,37,53,6.3 s,0.003,2.9 s
-Elucidate,,,https://www.elucidate.co/,,,,,Done,Marekting web,WP,New webstie,Strona firmy fintech/lending,Robiliśmy od zera; nie nasz design,51,58,12.9 s,0.008,4.3 s
-Crosslend,,Germany,https://crosslend.com/,,,,,Done,Marekting web,WP,Maintenance,Strona fintech (pożyczki online),Rozwijaliśmy,30,48,9.1 s,0.026,2.5 s
-LinkHomeTherapy,,,https://linkhometherapy.com/,,,,,Done,Marekting web,WP,New webstie,Strona home therapy,Robiliśmy od zera,51,55,11.5 s,0.11,2.8 s
-EvidScience,,,https://www.evidscience.com/,,,,,Done,Marekting web,WP,New webstie,Strona firmy naukowej/biotech,Robiliśmy od zera; nie nasz design,ERR,ERR,,,
-TradeDoubler Grow,,Sweden,https://grow.tradedoubler.com/,,,,,Done,Marekting web,WP,New webstie,Strona performance marketing,Robiliśmy od zera,56,55,6.0 s,0,3.6 s
-Staircase,,,https://staircase.ai/,,,,,Disabled,Marekting web,WP,New webstie,Strona SaaS,Usunięta — strona nie istnieje (wg pliku portfolio: 'usunięte'),,,,,
-Strattic,,,https://strattic.com/,,,,,Disabled,Marekting web,WP,New webstie,Strona firmy (static site CDN),Elementor przejął domenę — nasza wersja już nie online,,,,,
-Cloudkitchens,,USA,https://cloudkitchens.com/,https://www.figma.com/design/AecUvHqU860PpSQaNtGL2J/Otter-Restaurant-Type-Pages,,,,In progress,Marekting web,Inna,Maintenance,"Platforma ghost kitchens — Widelab buduje sub-produkty (TryPicnic, TryOtter)",Augmentation + Project; duży aktywny klient; tech: Next.js + Prismic (headless),32,51,3.9 s,0.002,2.2 s
-TryPicnic,,USA,https://trypicnic.com/,https://www.figma.com/design/cnGuheSXA0GYmeFJk1bu8X/Bite-XPs,,,,In progress,Marekting web,Headless,New webstie,Platforma food/picnic — sub-projekt Cloudkitchens,Prismic + Next.js; aktywny 2026; repo: City-Storage-Systems/publicss,54,59,9.0 s,0,2.0 s
-Dipli,,France,https://dipli.com/,https://www.figma.com/file/qkjGULaGyuNr3OaUWlW5FA/Dipli,,,,Done,Marekting web,Inna,Redesign,Rebranding + e-commerce (Francja),VueJS/NuxtJS (wewnątrz istniejącego projektu klienta); rebranding + dev + ecommerce kanały na Slacku,26,8,45.8 s,0,9.9 s
-Piotr Bucki,,Poland,https://bucki.pro/,https://www.figma.com/design/yG63xyYWzTyg4S5kYLpDjL/CC-Piotr-Bucki-Website---(Developer-Handoff),,,,Done,Marekting web,WP,New webstie,Strona personal brand / speakera,~608h w Clockify; aktywny klient; wcześniej w portfolio jako 'jeszcze nie można',72,89,3.6 s,0,1.1 s
-DreamyBlue,,,https://dreamyblue.com/,,,,,Done,ecommerce,Shopify,New webstie,Sklep Shopify,Przez Motiff Studio; monitoring w #client-motiff-studio-dev-internal-notifications,54,57,5.2 s,0.002,1.9 s
-MatterPet,,,https://matterpet.com/,,,,,Done,ecommerce,Shopify,New webstie,Sklep Shopify (produkty dla zwierząt),Przez Motiff Studio; monitoring w #client-motiff-studio-dev-internal-notifications,57,61,7.4 s,0,2.8 s
+wariant C: 215-305h",,Lost,ecommerce,WP,New webstie,Przebudowa strony plus sklepu internetowego
+Locatee,,,,Done,Marekting web,WP,New webstie,Strona marketingowa firmy
+Shopic,,,,Done,Marekting web,WP,New webstie,AI shopping assistant (in-store i e-commerce)
+Zenity,,,,Done,Marekting web,WP,New webstie,Strona marketingowa cybersecurity
+CohenCircle,,,,Done,Marekting web,WP,New webstie,Strona marketingowa fintech
+Lanterna,,,,Done,Marekting web,WP,Maintenance,Platforma edukacyjna ed-tech
+Lanterna Elite,,,,Done,Marekting web,WP,New webstie,Strona International Baccalaureate
+Noogata,,,,Done,Marekting web,WP,New webstie,Strona AI/ML
+Shul / Dinevtr,,,~245h,Done,ecommerce,woocommerce,New webstie,Sklep z zamówieniami online (angielsko-jidyszowy) + USA e-pay
+Compliments Platters,,,~138h,Done,ecommerce,woocommerce,New webstie,Koszerny catering Brooklyn — sklep online
+Stableton,,,,Done,Marekting web,WP,Maintenance,Platforma investment (private equity)
+Tilal,,,,Done,Marekting web,WP,New webstie,Strona real estate
+Preferred Payments,,,,Done,Marekting web,WP,New webstie,Strona marketingowa fintech
+Sternum,,,,Done,Marekting web,WP,New webstie,Strona IoT security
+Torii,,,,Done,Marekting web,WP,New webstie,Strona SaaS (IT visibility)
+TMD Hosting,,,,Done,Marekting web,WP,New webstie,Strona usług hostingowych
+SkuNexus,,,,Done,ecommerce,WP,New webstie,Platforma zarządzania zamówieniami e-commerce
+Milestone,,,,Done,Marekting web,WP,Maintenance,Strona marketingowa
+SevenStoneCap,,,~50h,Done,Marekting web,Webflow,New webstie,Strona usług finansowych
+Rightfully,,,~55h,Done,Marekting web,Webflow,New webstie,
+FurerSchaefer,,,~116h,Disabled,Marekting web,Webflow,New webstie,Crypto hedge fund
+Windsor,,,,Done,Marekting web,Webflow,New webstie,Strona MarTech/AdTech
+Ecanvasser,,,,Done,Marekting web,Webflow,New webstie,Platforma dla kampanii politycznych
+Audiohook,,,,Done,Marekting web,Webflow,New webstie,Platforma audio advertising
+Xyte,,,,Done,Marekting web,Webflow,New webstie,Platforma zarządzania IoT/Hardware
+Fintastic,,,,Done,Marekting web,Webflow,New webstie,Strona fintech AI
+Zasta,,,,Done,Marekting web,Webflow,New webstie,Strona fintech (ubezpieczenia)
+Mannsales.co,,,~431h,Done,Marekting web,Webflow,New webstie,Strona agencji kreatywnej MannSalesCo
+MonaLabs,,,,Done,Marekting web,Headless,New webstie,Strona AI/ML
+Codesigned,,,,Done,Marekting web,Headless,New webstie,Strona agencji design
+21Shares,,,,Done,Marekting web,Headless,New webstie,Strona crypto ETP/ETF
+Robyg (Gdańsk),,,,Done,Marekting web,Headless,New webstie,Strona dewelopera nieruchomości
+Personizely,,,,Done,Marekting web,Headless,New webstie,Narzędzie CRO/personalizacja dla e-commerce
+Norm,,,,Done,Marekting web,Headless,New webstie,Strona firmy
+BagelCRM,,,,Done,Marekting web,Headless,New webstie,Platforma CRM
+FounderPath,,,,Done,Marekting web,React / NextJS,New webstie,Platforma finansowania SaaS
+Baller,,,~1011h,Done,ecommerce,woocommerce,New webstie,Custom pen configurator online (WooCommerce + Zakeke 3D); sklep z zamówieniami i wysyłką
+Kitchen One,,,~187h,Done,ecommerce,WP,New webstie,Platforma zamówień koszernego jedzenia dla biur (multi-restaurant)
+Fleishigs,,,~5720h,In progress,Marekting web,React,Maintenance,Koszerny magazyn spożywczy — strona + mobile app
+Dataloop,,,,Done,Marekting web,WP,New webstie,Platforma AI/ML do zarządzania danymi
+Stonebrook,,,,Done,Marekting web,WP,New webstie,Strona ubezpieczeniowa
+Formation,,,~132h,Done,Marekting web,WP,New webstie,Food/restaurant platform
+Cue,,,~129h,Done,Marekting web,Webflow,New webstie,Luksusowe peruki — branding + strona
+Asgtg,,,~51h,Done,Marekting web,WP,Maintenance,Strona organizacji — nowa podstrona w WP
+Biased,,,~29h,Done,Marekting web,Webflow,New webstie,Agencja mediowa — pilna strona ('na już')
+Pas,,,~224h,Done,Marekting web,WP,New webstie,Piekarnia/bakery — strona WordPress
+TheAdPen.com,,,~39h,Done,Marekting web,WP,New webstie,Platforma reklamowa
+Kovahats,,,~6h,Done,Marekting web,WP,New webstie,Sklep stacjonarny z kapeluszami (Lakewood NJ)
+Bonus Coupons,,,~1215h,Done,ecommerce,,New webstie,Platforma kuponów i deals — e-commerce ekosystem
+Appraisd,,,,Done,Marekting web,Webflow,New webstie,Platforma zarządzania pracownikami (performance review)
+Tryotter,,,,Done,Marekting web,Headless,New webstie,Platforma SaaS
+Elucidate,,,,Done,Marekting web,WP,New webstie,Strona firmy fintech/lending
+Crosslend,,,,Done,Marekting web,WP,Maintenance,Strona fintech (pożyczki online)
+LinkHomeTherapy,,,,Done,Marekting web,WP,New webstie,Strona home therapy
+EvidScience,,,,Done,Marekting web,WP,New webstie,Strona firmy naukowej/biotech
+TradeDoubler Grow,,,,Done,Marekting web,WP,New webstie,Strona performance marketing
+Staircase,,,,Disabled,Marekting web,WP,New webstie,Strona SaaS
+Strattic,,,,Disabled,Marekting web,WP,New webstie,Strona firmy (static site CDN)
+Cloudkitchens,,,,In progress,Marekting web,Inna,Maintenance,"Platforma ghost kitchens — Widelab buduje sub-produkty (TryPicnic, TryOtter)"
+TryPicnic,,,,In progress,Marekting web,Headless,New webstie,Platforma food/picnic — sub-projekt Cloudkitchens
+Dipli,,,,Done,Marekting web,Inna,Redesign,Rebranding + e-commerce (Francja)
+Piotr Bucki,,,,Done,Marekting web,WP,New webstie,Strona personal brand / speakera
+DreamyBlue,,,,Done,ecommerce,Shopify,New webstie,Sklep Shopify
+MatterPet,,,,Done,ecommerce,Shopify,New webstie,Sklep Shopify (produkty dla zwierząt)

@@ -28,7 +28,7 @@ Kwoty **roczne** (tak sprzedawane są licencje wtyczek; plany miesięczne × 12 
 | **Webflow** | **$876**: Workspace Core $228 + 3 miejsca edycji $540 + Localize Essential 1 język $108 | **$300**: Site plan Premium (hosting 50 GB + CMS) | mediana **55 h** (5 projektów) |
 | **HubSpot CMS** | **$5400**: Content Hub Professional (3 miejsca) | **$0**: w cenie licencji | **401 h** (1 projekt; pewność niska) |
 | **Astro + Sanity** | **$540**: Sanity Growth 3 × $15/mies. | **$60**: Cloudflare Workers Paid | brak danych |
-| **Next.js + Sanity** | **$540**: Sanity Growth 3 × $15/mies. | **$240**: Vercel Pro | brak danych (headless: 10 realizacji bez godzin) |
+| **Next.js + Sanity** | **$540**: Sanity Growth 3 × $15/mies. | **$240**: Vercel Pro | brak danych (brak projektów headless z godzinami) |
 | **Next.js + Prismic** | **$300**: Prismic Small (7 użytkowników, 4 języki) | **$240**: Vercel Pro | brak danych |
 | **Next.js + Strapi** | **$540**: Strapi Growth (3 miejsca) | **$1320**: Strapi Cloud Pro $1080 + Vercel Pro $240 | brak danych |
 | **Shopify** (sklep) | **$1908**: Grow $948 + aplikacje ≈$960 (szacunek) + prowizje od sprzedaży | **$0**: w cenie planu | brak danych |
